@@ -1,0 +1,26 @@
+.ecommerce-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .video-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  .star-model-heading {
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .star-model-task-heading {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-left: 20px; /* Add margin at the bottom */
+  }
+  
+  .star-model-description {
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 20px;
+  }

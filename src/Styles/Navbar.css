@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: rgb(208, 234, 243); */
+    color: white;
+    border-bottom: black 1px solid;
+  }
+  
+  .logo img {
+    width: 100px; 
+    height: auto;
+  }
+  
+  .nav-link {
+    padding: 1rem 1.5rem; /* Adjust padding to make buttons smaller */
+    margin-right: 15px; /* Add margin between buttons */
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem; /* Adjust font size */
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center;
+    }
+  
+    .hire-button {
+      margin-top: 1rem; /* Add spacing between logo and button on small screens */
+    }
+  }
+  

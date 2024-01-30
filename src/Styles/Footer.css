@@ -1,0 +1,24 @@
+.footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc; 
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-media a {
+    color: black;
+    font-size: 40px;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .footer-text {
+    font-size: 20px;
+  }
