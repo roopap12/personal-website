@@ -1,5 +1,3 @@
-// Footer.js
-
 import React from 'react';
 import './../Styles/Footer.css'; // Make sure to adjust the import path based on your project structure
 
@@ -13,7 +11,7 @@ const Footer = () => {
         <a href="https://linkedin.com/in/your_linkedin_profile" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/your_github_username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/roopap12" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </a>
         {/* Add more social media links as needed */}
