@@ -1,0 +1,163 @@
+.homepage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Adjust as needed */
+  }
+  
+  .text-container {
+    flex: 1; /* Takes up remaining space in the flex container */
+    padding-right: 6rem; /* Adjust as needed for spacing between text and image */
+  }
+  
+  .hero h1 {
+    font-size: 1.5rem;
+    font-style: arial;
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .hero p {
+    font-size: 2.1rem;
+    font-style: arial;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    flex-shrink: 1; /* Prevents the image from shrinking to fit content */
+    max-width: 60%; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  /* // Project Portfolio section */
+  .portfolio {
+    margin-top: 40px;
+  }
+  
+  .portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust as needed for spacing between cards */
+  }
+  
+  .project {
+    flex: 0 0 calc(33.333% - 20px); /* Three cards in a row with 20px gap */
+    margin-bottom: 20px;
+    text-align: justify;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for a smoother effect */
+    position: relative;
+  }
+  
+  /* Adjust the width to accommodate the margin */
+  @media only screen and (max-width: 768px) {
+    .project {
+      flex: 0 0 calc(50% - 20px); /* Two cards in a row for small screens */
+    }
+  }
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    /* Add any additional styles or adjustments needed */
+  }
+  .project p {
+    font-size: 1.2rem;
+    color: black;
+    background-color: white;
+    padding: 10px; /* Add padding for better readability */
+  }
+  
+  
+  .project:hover {
+    transform: translateY(-5px); /* Move the card slightly upwards on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add a box shadow for the pop-up effect */
+  }
+  
+  .project:nth-child(1) {
+    font-weight: bold;
+    font-style: arial;
+    color: black;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .project:nth-child(2) {
+    font-weight: bold;
+    font-style: arial;
+    color: black;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .project:nth-child(3) {
+    font-weight: bold;
+    font-style: arial;
+    color: black;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .project:nth-child(4) {
+    font-weight: bold;
+    font-style: arial;
+    color: black;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .project:nth-child(5) {
+    font-weight: bold;
+    font-style: arial;
+    color: black;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .project:nth-child(6) {
+    font-weight: bold;
+    font-style: arial;
+    color: black;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0; /* Rounded corners only at the top */
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .project p {
+    font-size: 1.1rem;
+    color: black;
+  }
+  

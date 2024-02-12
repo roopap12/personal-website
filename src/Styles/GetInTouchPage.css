@@ -1,0 +1,93 @@
+/* Style for the entire page */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px; /* Added margin on top */
+}
+
+/* Heading styling */
+h2 {
+  color: black;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 28px; /* Increased font size for Contact Me */
+}
+
+/* Card styling */
+.card {
+  background-color: #fefefe;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 90%; /* Adjusted width for better readability */
+  text-align: center;
+  margin-top: 60px; /* Adjusted margin at the top for separation */
+  margin-bottom: 20px; /* Adjusted margin at the bottom for separation */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 30px; /* Increased margin between form groups */
+}
+
+/* Textarea, Name, and Email input styling */
+textarea,
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 15px; /* Increased padding for better input spacing */
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Word count styling */
+.word-count {
+  display: block;
+  margin-top: 15px; /* Increased margin between word count and textarea */
+  color: #888;
+}
+
+/* Button styling */
+.submit-button {
+  background-color: #5cbf60;
+  color: bold black;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Close button styling */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #888;
+}
+
+.submission-message {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+/* Rest of your existing styles */
