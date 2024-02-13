@@ -1,13 +1,10 @@
-// // GetInTouchPage.js
 import React, { useState } from 'react';
 import GetInTouchForm from '../Components/GetInTouchForm';
 
 const GetInTouchPage = () => {
   const [showForm, setShowForm] = useState(true);
 
-  // const handleFormOpen = () => {
-  //   setShowForm(true);
-  // };
+
 
   const handleFormClose = () => {
     console.log('Closing form');
