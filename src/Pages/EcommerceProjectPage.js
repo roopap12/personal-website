@@ -1,4 +1,3 @@
-// src/Pages/EcommerceProjectPage.js
 import React from 'react';
 import ecommerceVideo from '../Ecommerce-video.mp4';
 import '../Styles/EcommerceProjectPage.css';

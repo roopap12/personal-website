@@ -1,4 +1,3 @@
-// src/Pages/EcommerceProjectPage.js
 import React from 'react';
 import meditationVideo from '../Meditation-video.mp4';
 import '../Styles/MeditationProject.css';
