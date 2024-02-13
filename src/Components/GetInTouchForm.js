@@ -52,17 +52,11 @@ const GetInTouchForm = ({ showForm, handleClose }) => {
 
         // Hide the form after successful submission
         setFormVisible(false);
-        // Periodically check if the submission message has disappeared
-        const intervalId = setInterval(() => {
-        if (!submissionMessage) {
-        // Reset the submission message
-        setSubmissionMessage(null);
-        // Show the form again
-        setFormVisible(true);
-        // Clear the interval
-       clearInterval(intervalId);
-      }
-      }, 2000);
+
+        // Reset form visibility after a delay
+        setTimeout(() => {
+          setFormVisible(true);
+        }, 2000);
       } else {
         setSubmissionMessage('Form submission failed. Please try again.');
       }
@@ -76,7 +70,7 @@ const GetInTouchForm = ({ showForm, handleClose }) => {
     <div className={`get-in-touch-form ${showForm ? 'show' : ''}`} style={{ zIndex: 1000 }}>
       <div className="form-content">
         <span className="close" onClick={handleClose}>&times;</span>
-        {showForm && (
+        {(showForm && formVisible) && (
           <div className="card">
             <h2>Contact Me</h2>
             <p>Feel free to contact me using the form below.</p>
