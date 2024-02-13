@@ -12,7 +12,7 @@ const Homepage = () => {
       <section className="hero">
       <div className="text-container">
           <p>Hello, I'm Roopa</p>
-          <h1>Full Stack Sorceress of Code 🔮, weaving secure and powerful spells in the realm of Cyber Security and Backend Development. Let's turn lines of code into digital enchantments! ✨</h1>
+          <h1>I'm a skilled Full Stack Developer 🧙‍♀️, specializing in Cyber Security and Backend Development. I'm passionate about crafting secure and robust digital solutions. Let's work together to bring your ideas to life with code magic!</h1>
         </div>
         <div className="image-container">
           <img src="Homepg.jpg" alt="Hero Graphic" />
@@ -32,7 +32,7 @@ const Homepage = () => {
           </div>
         </a>
         <p>
-        Experience the Future of Online Shopping: Our E-commerce Project, meticulously crafted with React and Node.js, redefines the digital marketplace. Immerse yourself in a world where browsing, cart management, and seamless checkout converge to offer an unparalleled shopping journey. Elevate your online retail experience with cutting-edge technology and user-friendly design.
+          Experience the Future of Online Shopping: Our E-commerce Project, meticulously crafted with React and Node.js, redefines the digital marketplace. Immerse yourself in a world where browsing, cart management, and seamless checkout converge to offer an unparalleled shopping journey. Elevate your online retail experience with cutting-edge technology and user-friendly design.
         </p>
       </div>
       {/* Project Cards-2 */}
