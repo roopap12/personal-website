@@ -6,7 +6,7 @@
   }
   
   .video-container {
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px; 
   }
   .star-model-heading {
     font-weight: bold;
@@ -15,8 +15,8 @@
     text-align: center;
   }
   .star-model-task-heading {
-    font-size: 18px; /* Adjust the font size as needed */
-    margin-left: 20px; /* Add margin at the bottom */
+    font-size: 18px; 
+    margin-left: 20px; 
   }
   
   .star-model-description {

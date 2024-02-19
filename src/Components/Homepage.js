@@ -3,9 +3,10 @@ import './../Styles/Homepage.css';
 import ecommerceImage from '../ecommerce.jpg';
 import meditationImage from '../meditation-app.jpg';
 import exobrainImage from '../exobrain.jpg';
+import cybersecurityImage from '../Cybersecurity-HM.jpg';
 
 const Homepage = () => {
-  // const imagePath = require('../Images/ecommerce.jpg').default;
+  
   return (
     <div className="homepage">  
       {/* Hero Section */}
@@ -46,7 +47,7 @@ const Homepage = () => {
     <p>
     Embark on a transformative voyage of self-discovery and holistic well-being through our Yoga and Meditation App. Immerse yourself in the serene realm of mindfulness, harmonizing ancient traditions with state-of-the-art technology to cultivate tranquility amid life's bustling demands. Elevate your well-being and embrace a peaceful lifestyle with our thoughtfully designed application.
     </p>
-</div>
+  </div>
     {/* Project Cards-3 */}
     <div className="project">
     <a href="/exobrain-project" className="project-image">
@@ -57,47 +58,24 @@ const Homepage = () => {
         <p>
         Revolutionizing Communication: Unleash the Power of Intelligent Conversations with Our Advanced Chatbot. Seamlessly Enhancing Interactions, Simplifying Processes, and Providing Instant Support – Your Virtual Companion for Smarter, Efficient, and More Connected Experiences.
         </p>
-      </div>
-    {/* Project Cards-4
-    <div className="project">
-    <a href="/ecommerce-project" className="project-image">
-    <img src={ecommerceImage} alt="Ecommerce Project" />
-          <div className="project-overlay">
-          </div>
-        </a>
-        <p>
-          A fully functional e-commerce website built using React and Node.js.
-          Users can browse products, add them to the cart, and complete the purchase.
-        </p>
-      </div>
-    Project Cards-5
-    <div className="project">
-    <a href="/ecommerce-project" className="project-image">
-    <img src={ecommerceImage} alt="Ecommerce Project" />
-          <div className="project-overlay">
-          </div>
-        </a>
-        <p>
-          A fully functional e-commerce website built using React and Node.js.
-          Users can browse products, add them to the cart, and complete the purchase.
-        </p>
-      </div>
-      Project Cards-5
-    <div className="project">
-    <a href="/ecommerce-project" className="project-image">
-    <img src={ecommerceImage} alt="Ecommerce Project" />
-          <div className="project-overlay">
-          </div>
-        </a>
-        <p>
-          A fully functional e-commerce website built using React and Node.js.
-          Users can browse products, add them to the cart, and complete the purchase.
-        </p>
-      </div> */}
-    {/* Add more projects */}
   </div>
-</section>
-    </div>
+    {/* Project Cards-4 */}
+    <div className="project">
+    <a href="/cybersecurity-project" className="project-image">
+    <img src={cybersecurityImage} alt="cybersecurity Project" />
+          <div className="project-overlay">
+          </div>
+        </a>
+        <p>
+        Empowering Security: Our Cybersecurity Project delivers advanced protection for digital assets, bolstering network resilience and equipping businesses with state-of-the-art security measures."
+
+        This brief description emphasizes the key goals of your project—to enhance security and provide advanced protection for digital assets.
+        </p>
+  </div>
+    
+</div>
+  </section>
+</div>
   );
 }
 

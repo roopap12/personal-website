@@ -8,7 +8,7 @@ const Footer = () => {
         <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-twitter"></i>
         </a>
-        <a href="https://linkedin.com/in/your_linkedin_profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/roopa-p-13238a29a" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
         <a href="https://github.com/roopap12" target="_blank" rel="noopener noreferrer">

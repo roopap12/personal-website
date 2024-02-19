@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  margin-top: 20px; /* Added margin on top */
+  margin-top: 20px; 
 }
 
 /* Heading styling */
@@ -19,7 +19,7 @@ h2 {
   color: black;
   text-align: center;
   margin: 15px auto;
-  font-size: 28px; /* Increased font size for Contact Me */
+  font-size: 28px; 
 }
 
 /* Card styling */
@@ -27,10 +27,10 @@ h2 {
   background-color: #fefefe;
   padding: 50px;
   border: 1px solid #888;
-  width: 90%; /* Adjusted width for better readability */
+  width: 90%; 
   text-align: center;
-  margin-top: 60px; /* Adjusted margin at the top for separation */
-  margin-bottom: 20px; /* Adjusted margin at the bottom for separation */
+  margin-top: 60px; 
+  margin-bottom: 20px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
@@ -42,7 +42,7 @@ h2 {
 
 /* Form group styling */
 .form-group {
-  margin-bottom: 30px; /* Increased margin between form groups */
+  margin-bottom: 30px; 
 }
 
 /* Textarea, Name, and Email input styling */
@@ -50,7 +50,7 @@ textarea,
 input[type="text"],
 input[type="email"] {
   width: 100%;
-  padding: 15px; /* Increased padding for better input spacing */
+  padding: 15px; 
   box-sizing: border-box;
   margin-bottom: 15px;
   border: 1px solid #ddd;
@@ -60,7 +60,7 @@ input[type="email"] {
 /* Word count styling */
 .word-count {
   display: block;
-  margin-top: 15px; /* Increased margin between word count and textarea */
+  margin-top: 15px; 
   color: #888;
 }
 
@@ -90,4 +90,4 @@ input[type="email"] {
   font-weight: bold;
 }
 
-/* Rest of your existing styles */
+

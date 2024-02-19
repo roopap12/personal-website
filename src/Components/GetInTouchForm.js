@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import './../Styles/GetInTouchPage.css';
+import React, { useState, useEffect } from "react";
+import "./../Styles/GetInTouchPage.css";
 
 const GetInTouchForm = ({ showForm, handleClose }) => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [wordCount, setWordCount] = useState(0);
   const [submissionMessage, setSubmissionMessage] = useState(null);
   const [formVisible, setFormVisible] = useState(true);
@@ -23,17 +23,13 @@ const GetInTouchForm = ({ showForm, handleClose }) => {
     event.preventDefault();
 
     // Assuming you're using Formspree as your form endpoint
-    const formspreeEndpoint = 'https://formspree.io/f/mnqejone';
+    const formspreeEndpoint = "https://formspree.io/f/mnqejone";
 
     try {
-      // Your form submission logic goes here
-      // You can use Fetch API or Axios to make a POST request to Formspree
-
-      // Assuming you're using Fetch API
       const response = await fetch(formspreeEndpoint, {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           name,
@@ -43,12 +39,12 @@ const GetInTouchForm = ({ showForm, handleClose }) => {
       });
 
       if (response.ok) {
-        setSubmissionMessage('Form submitted successfully! Thank you.');
+        setSubmissionMessage("Form submitted successfully! Thank you.");
 
         // Clear form fields after successful submission
-        setName('');
-        setEmail('');
-        setMessage('');
+        setName("");
+        setEmail("");
+        setMessage("");
 
         // Hide the form after successful submission
         setFormVisible(false);
@@ -58,19 +54,24 @@ const GetInTouchForm = ({ showForm, handleClose }) => {
           setFormVisible(true);
         }, 2000);
       } else {
-        setSubmissionMessage('Form submission failed. Please try again.');
+        setSubmissionMessage("Form submission failed. Please try again.");
       }
     } catch (error) {
-      console.error('Form submission error:', error);
-      setSubmissionMessage('Form submission failed. Please try again.');
+      console.error("Form submission error:", error);
+      setSubmissionMessage("Form submission failed. Please try again.");
     }
   };
 
   return (
-    <div className={`get-in-touch-form ${showForm ? 'show' : ''}`} style={{ zIndex: 1000 }}>
+    <div
+      className={`get-in-touch-form ${showForm ? "show" : ""}`}
+      style={{ zIndex: 1000 }}
+    >
       <div className="form-content">
-        <span className="close" onClick={handleClose}>&times;</span>
-        {(showForm && formVisible) && (
+        <span className="close" onClick={handleClose}>
+          &times;
+        </span>
+        {showForm && formVisible && (
           <div className="card">
             <h2>Contact Me</h2>
             <p>Feel free to contact me using the form below.</p>
@@ -81,12 +82,26 @@ const GetInTouchForm = ({ showForm, handleClose }) => {
               <form onSubmit={handleFormSubmit}>
                 <div className="form-group">
                   <label htmlFor="name">Name:</label>
-                  <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} required />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    required
+                  />
                 </div>
 
                 <div className="form-group">
                   <label htmlFor="email">Email:</label>
-                  <input type="email" id="email" name="_replyto" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                  <input
+                    type="email"
+                    id="email"
+                    name="_replyto"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
                 </div>
 
                 <div className="form-group">
@@ -103,7 +118,9 @@ const GetInTouchForm = ({ showForm, handleClose }) => {
                   <small className="word-count">{wordCount}/1000 words</small>
                 </div>
 
-                <button type="submit" className="submit-button">Submit</button>
+                <button type="submit" className="submit-button">
+                  Submit
+                </button>
               </form>
             )}
           </div>

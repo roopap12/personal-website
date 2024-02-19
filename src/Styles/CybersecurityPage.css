@@ -1,0 +1,90 @@
+.cybersecurity-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-cards-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+}
+.project-card {
+  flex: 0 0 calc(33.333% - 20px); 
+  margin-bottom: 20px;
+  text-align: justify;
+  box-sizing: border-box; 
+  transition: transform 0.3s, box-shadow 0.3s; 
+  position: relative;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .project-card {
+    flex: 0 0 calc(50% - 20px); 
+  }
+}
+
+.project-card img {
+  max-width:  100%; 
+  height: auto; 
+  display: block; 
+  border-radius:  8px  8px  0  0; 
+}
+
+.project-description {
+  font-size:   1.2rem;
+  color: black;
+  background-color: white;
+  padding:   10px; 
+  text-align: justify; 
+  overflow-wrap: break-word; 
+  word-wrap: break-word; 
+  hyphens: auto; 
+  margin-left:   40px; 
+  margin-right:   40px; 
+}
+
+.project-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+/* Star Model Heading */
+.star-model-heading {
+  font-size:  2em; 
+  margin-bottom:  1em; 
+  text-align: center; 
+}
+
+/* Star Model Description */
+.star-model-description {
+  font-size:  1em; 
+  line-height:  1.5; 
+  margin-bottom:  1em; 
+}
+
+/* Star Model Action Item */
+.star-model-action-item {
+  font-size:  1em; 
+  line-height:  1.5; 
+  margin-bottom:  1em; 
+  margin-left: 1em;
+}
+
+/* Optional: Highlight the action item headings */
+.star-model-action-item strong {
+  font-weight: bold;
+  color: #333; 
+}
+
+/* Optional: Style the action list container */
+.star-model-action {
+  margin-top:  1em; 
+  margin-bottom:  1em; 
+}
+
+/* Optional: Style the result section */
+.star-model-result {
+  margin-top:  2em; 
+}

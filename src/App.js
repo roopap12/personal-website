@@ -8,6 +8,7 @@ import MeditationProject from './Pages/MeditationProject';
 import ExobrainProject from './Pages/ExobrainProject';
 import GetInTouchPage from './Pages/GetInTouchPage';
 import AboutPage from './Pages/AboutPage';
+import CybersecurityProjectPage from './Pages/CybersecurityProjectPage';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/ecommerce-project" component={EcommerceProjectPage} />
           <Route path="/meditation-project" component={MeditationProject} />
           <Route path="/exobrain-project" component={ExobrainProject} />
+          <Route path="/cybersecurity-project" component={CybersecurityProjectPage} />
           <Route path="/get-in-touch" component={GetInTouchPage} />
           <Route path="/about" component={AboutPage} />
           {/* Add more routes as needed */}
