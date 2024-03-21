@@ -88,6 +88,19 @@ const AboutPage = () => {
               creative side.
             </li>
             <li>
+              Completed Google Cybersecurity Professional Certificate.
+              <a
+                href={
+                  process.env.PUBLIC_URL +
+                  "/certificates/GoogleCybersecurityProfessionalCertificate.pdf"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google Cybersecurity Professional Certificate.pdf
+              </a>
+            </li>
+            <li>
               Completed Software Development Certificate of Completion.
               <a
                 href={
