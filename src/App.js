@@ -9,6 +9,8 @@ import ExobrainProject from './Pages/ExobrainProject';
 import GetInTouchPage from './Pages/GetInTouchPage';
 import AboutPage from './Pages/AboutPage';
 import CybersecurityProjectPage from './Pages/CybersecurityProjectPage';
+import DDoSProject from './Pages/DDoSProject';
+import InvoiceProcessingPage from './Pages/InvoiceProcessingPage'; // Import the new page
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
           <Route path="/cybersecurity-project" component={CybersecurityProjectPage} />
           <Route path="/get-in-touch" component={GetInTouchPage} />
           <Route path="/about" component={AboutPage} />
+          <Route path="/ddos-project" component={DDoSProject} />  {/* Add route for DDoS Project */}
+          <Route path="/invoice-processing-project" component={InvoiceProcessingPage} />  {/* New route */}
           {/* Add more routes as needed */}
         </Switch>
         <Footer />

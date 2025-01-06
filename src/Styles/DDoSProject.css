@@ -1,0 +1,116 @@
+/* General Styling for DDoS Project */
+.ddos-page-container {
+  background-color: #f4f7fc; /* Light background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for video container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Increased space below the video */
+}
+
+.video-container iframe {
+  width: 100%; /* Ensure responsiveness */
+  max-width: 800px; /* Set max width to avoid overflowing */
+  height: 450px; /* Adjust the height accordingly */
+}
+
+/* Styling for the In Progress Banner */
+.in-progress-banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center the banner */
+  margin-top: 20px; /* Adds space between the video and the banner */
+  margin-bottom: 20px; /* Adds space between the banner and the content */
+}
+
+.in-progress-banner {
+  position: relative;
+  background-color: #ff5733; /* Red color for the in-progress banner */
+  color: white;
+  padding: 10px 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 100%; /* Ensure it doesn't overflow */
+  width: fit-content;
+}
+
+/* Heading and Description Styling */
+.ddos-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.ddos-description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Short Description Under the Image */
+.ddos-short-description {
+  font-size: 0.05rem;
+  font-weight: 300;
+  color: #333;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Task and Action List */
+.ddos-task-heading {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.ddos-action-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ddos-action-item {
+  margin-bottom: 15px;
+  padding-left: 25px;
+}
+
+.ddos-action-item:before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0072ff; /* Blue checkmark */
+  font-size: 18px;
+}
+
+.ddos-action {
+  margin-bottom: 20px;
+}
+
+/* Responsive design for small screens */
+@media only screen and (max-width: 768px) {
+  .in-progress-banner {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+
+  .ddos-heading {
+    font-size: 2rem; /* Adjust heading size */
+  }
+
+  .ddos-description {
+    font-size: 1rem; /* Adjust description size */
+  }
+
+  .ddos-short-description {
+    font-size: 1.2rem; /* Adjust font size for short description */
+  }
+}

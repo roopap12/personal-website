@@ -4,7 +4,8 @@ import ecommerceImage from '../ecommerce.jpg';
 import meditationImage from '../meditation-app.jpg';
 import exobrainImage from '../exobrain.jpg';
 import cybersecurityImage from '../Cybersecurity-HM.jpg';
-
+import ddosImage from '../ddos-project-image.jpg'; // Image for DDoS project
+import invoiceImage from '../invoice-project-image.jpg'; // Image for invoice project
 const Homepage = () => {
   
   return (
@@ -12,9 +13,9 @@ const Homepage = () => {
       {/* Hero Section */}
       <section className="hero">
       <div className="text-container">
-          <p>Hello, I'm Roopa</p>
-          <h1>I'm a skilled Full Stack Developer 🧙‍♀️, specializing in Cyber Security and Backend Development. I'm passionate about crafting secure and robust digital solutions. Let's work together to bring your ideas to life with code magic!</h1>
-        </div>
+        <p>Hello, I'm Roopa</p>
+        <h1>I am an experienced and results-driven **Full Stack Developer**, **Cybersecurity Expert**, and **RPA Specialist** with a passion for building secure, scalable, and innovative digital solutions. With a strong foundation in **Automation**, **Backend Development**, and **Cybersecurity**, I craft robust systems that drive operational efficiency, secure digital environments, and elevate user experiences. Let’s collaborate to transform your ideas into high-performance, secure, and intelligent solutions.</h1>
+      </div>
         <div className="image-container">
           <img src="Homepg.jpg" alt="Hero Graphic" />
         </div>
@@ -72,6 +73,43 @@ const Homepage = () => {
         This brief description emphasizes the key goals of your project—to enhance security and provide advanced protection for digital assets.
         </p>
   </div>
+
+  {/* Project - 5 Automation Project (Invoice Processing) */}
+  <div className="project">
+          <a href="/invoice-processing-project" className="project-image">
+          <img src={invoiceImage} alt="Invoice Processing Project" />
+          <div className="project-overlay">
+          <span className="overlay-text">RPA UiPath - Invoice Processing Automation</span>
+    </div>
+  </a>
+  <p>
+  Automating Invoice Data Extraction and Entry
+
+This UiPath RPA project automates the extraction of key data from PDF invoices, validates it, and updates it into Excel or a database. The bot performs tasks such as extracting invoice numbers, vendor details, amounts, and dates from invoices, eliminating the need for manual data entry. The system ensures accuracy by validating the extracted data before entering it into business workflows, reducing errors and saving time.
+  </p>
+  </div>
+  {/* Project - 6 New Project Card for DDoS Detection System (In Progress) */}
+<div className="project">
+  <a href="/ddos-project" className="project-image">
+    <img src={ddosImage} alt="DDoS Detection Project" />
+  </a>
+
+  {/* In Progress Banner below the image */}
+  <div className="in-progress-banner-container">
+    <div className="in-progress-banner">In Progress</div>
+  </div>
+
+  {/* Short Description Below the Image */}
+  <h3 className="ddos-short-description">
+    DDoS Detection System: A cutting-edge project focused on detecting and mitigating Distributed Denial of Service (DDoS) attacks in real-time.
+  </h3>
+
+  {/* Main Description */}
+  <p>
+    This system uses advanced algorithms and AI to monitor network traffic and quickly identify suspicious patterns, providing businesses with an automated solution to protect their online infrastructure. Currently under development with plans for deployment soon.
+  </p>
+</div>
+    
     
 </div>
   </section>

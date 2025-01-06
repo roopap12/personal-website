@@ -1,4 +1,4 @@
-.homepage {
+/* .homepage {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -160,4 +160,203 @@
     font-size: 1.1rem;
     color: black;
   }
-  
+   */
+
+   /* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text for contrast */
+}
+
+/* Homepage Container */
+.homepage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the main content */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem; /* Add padding */
+  background: linear-gradient(135deg, #61dafb, #3a8fd1); /* Modern gradient */
+  border-radius: 10px; /* Rounded corners */
+  color: white;
+}
+
+.text-container {
+  flex: 1;
+  padding-right: 3rem; /* Adjust padding for spacing */
+}
+
+.hero h1 {
+  font-size: 1.8rem; /* Reduced font size */
+  line-height: 1; /* Adjusted line height for compactness */
+  text-align: left; /* Align text to the left to keep it neat */
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem; /* Slightly reduced font size */
+  line-height: 1.6; /* Better line height for readability */
+  color: rgb(24, 23, 23); /* Darker color for better contrast */
+  margin-bottom: 20px;
+}
+
+.image-container {
+  flex-shrink: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded image corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Project Portfolio Section */
+.portfolio {
+  margin-top: 60px;
+}
+
+.portfolio h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #0072ff;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  padding: 10px;
+}
+
+.project {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  overflow: hidden;
+}
+
+.project:hover {
+  transform: translateY(-10px); /* Lift effect */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); /* More intense shadow */
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.project p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.project-link {
+  display: block;
+  margin-top: 15px;
+  color: #0072ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  color: #005bb5; /* Hover color for links */
+}
+
+/* Responsive Design for smaller screens */
+
+/* For Tablets (max-width: 1024px) */
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #61dafb, #0072ff); /* Modern gradient */
+  border-radius: 10px;
+  color: white;
+}
+
+.text-container {
+  flex: 1;
+  padding-right: 3rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: justify;  /* Justify the heading text */
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: justify; /* Justify the paragraph text */
+  text-justify: inter-word; /* Ensures better spacing between words */
+}
+
+.image-container {
+  flex-shrink: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+/* Project Overlay Styling */
+.project-overlay {
+  position: relative;
+}
+
+.in-progress-banner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff5733; /* Red color for in progress */
+  color: white;
+  padding: 5px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}

@@ -1,0 +1,97 @@
+/* Invoice Processing Page Styles */
+.invoice-page-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+  }
+  
+  .in-progress-banner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .in-progress-banner {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .description-container {
+    margin-top: 20px;
+  }
+  
+  .invoice-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .invoice-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  
+  .invoice-task-heading {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .invoice-action-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .invoice-action-item {
+    margin-bottom: 15px;
+    padding-left: 25px;
+  }
+  
+  .invoice-action-item:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #0072ff;
+    font-size: 18px;
+  }
+  
+  .invoice-action {
+    margin-bottom: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .invoice-heading {
+      font-size: 2rem;
+    }
+  
+    .invoice-description {
+      font-size: 1rem;
+    }
+  
+    .invoice-task-heading {
+      font-size: 1.2rem;
+    }
+  }
+  

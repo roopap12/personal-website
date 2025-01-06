@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,4 +34,62 @@
       margin-top: 1rem; 
     }
   }
-  
+   */
+
+   /* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #282c34; /* Dark background for the navbar */
+  color: white;
+  border-bottom: 1px solid #444; /* Darker bottom border */
+}
+
+/* Logo Styling */
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Navbar Links */
+.nav-link {
+  padding: 1rem 1.5rem;
+  margin-right: 15px;
+  background-color: #fff;
+  color: #333; /* Dark text for better contrast */
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 2px solid #333; /* Darker border for contrast */
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect on nav-link */
+.nav-link:hover {
+  background-color: #61dafb; /* Light blue background on hover */
+  color: white; /* White text color on hover */
+  border-color: #61dafb; /* Matching border color */
+}
+
+/* Media Queries for Mobile View */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .nav-link {
+    width: 100%; /* Make the navbar links stack vertically and fill the width */
+    margin-bottom: 1rem;
+    text-align: center; /* Center text for mobile view */
+  }
+
+  .hire-button {
+    margin-top: 1rem;
+  }
+}
