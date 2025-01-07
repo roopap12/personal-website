@@ -21,24 +21,28 @@
 
 /* Styling for the In Progress Banner */
 .in-progress-banner-container {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Vertically center the banner */
-  margin-top: 20px; /* Adds space between the video and the banner */
-  margin-bottom: 20px; /* Adds space between the banner and the content */
-}
-
-.in-progress-banner {
   position: relative;
+  top: 10px;  /* Adjust this top value to control the vertical space */
+  left: 50%;
+  transform: translateX(-50%);  /* Centers the banner horizontally */
   background-color: #ff5733; /* Red color for the in-progress banner */
   color: white;
-  padding: 10px 10px;
-  font-size: 1rem;
+  padding: 5px 10px; /* Adjust padding for a smaller tab */
+  font-size: 1rem;  /* Reduced font size for compactness */
   font-weight: bold;
   border-radius: 5px;
   text-align: center;
   max-width: 100%; /* Ensure it doesn't overflow */
   width: fit-content;
+  z-index: 10;  /* Ensure it stays on top of other elements */
+}
+
+/* Styling for the video container on the DDoS project page */
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; /* Adjust spacing below the video */
 }
 
 /* Heading and Description Styling */

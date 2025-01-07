@@ -1,168 +1,4 @@
-/* .homepage {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem; 
-  }
-  
-  .text-container {
-    flex: 1; 
-    padding-right: 6rem; 
-  }
-  
-  .hero h1 {
-    font-size: 1.5rem;
-    font-style: arial;
-    text-align: justify;
-    margin-bottom: 10px;
-    text-align: left; 
-  }
-  
-  .hero p {
-    font-size: 2.1rem;
-    font-style: arial;
-    color: black;
-    margin-bottom: 20px;
-  }
-  
-  .image-container {
-    flex-shrink: 1; 
-    max-width: 60%; 
-    display: flex;
-    justify-content: center;
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  /* // Project Portfolio section */
-  .portfolio {
-    margin-top: 40px;
-  }
-  
-  .portfolio h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; 
-  }
-  
-  .project {
-    flex: 0 0 calc(33.333% - 20px); 
-    margin-bottom: 20px;
-    text-align: justify;
-    box-sizing: border-box; 
-    transition: transform 0.3s, box-shadow 0.3s; 
-    position: relative;
-  }
-  
-  /* Adjust the width to accommodate the margin */
-  @media only screen and (max-width: 768px) {
-    .project {
-      flex: 0 0 calc(50% - 20px); 
-    }
-  }
-  .project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px 8px 0 0;
-    
-  }
-  .project p {
-    font-size: 1.2rem;
-    color: black;
-    background-color: white;
-    padding: 10px; 
-  }
-  
-  
-  .project:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
-  }
-  
-  .project:nth-child(1) {
-    font-weight: bold;
-    font-style: arial;
-    color: black;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .project:nth-child(2) {
-    font-weight: bold;
-    font-style: arial;
-    color: black;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .project:nth-child(3) {
-    font-weight: bold;
-    font-style: arial;
-    color: black;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .project:nth-child(4) {
-    font-weight: bold;
-    font-style: arial;
-    color: black;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .project:nth-child(5) {
-    font-weight: bold;
-    font-style: arial;
-    color: black;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .project:nth-child(6) {
-    font-weight: bold;
-    font-style: arial;
-    color: black;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .project img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px 8px 0 0; 
-  }
-  
-  .project-content {
-    padding: 20px;
-  }
-  
-  .project h3 {
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-  }
-  
-  .project p {
-    font-size: 1.1rem;
-    color: black;
-  }
-   */
-
-   /* Global Styles */
+/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -201,9 +37,9 @@ body {
 }
 
 .hero h1 {
-  font-size: 1.8rem; /* Reduced font size */
-  line-height: 1; /* Adjusted line height for compactness */
-  text-align: left; /* Align text to the left to keep it neat */
+  font-size: 2rem; /* Slightly larger font */
+  line-height: 1.4; /* Adjusted line height for compactness */
+  text-align: left; /* Align text to the left */
   margin-bottom: 15px;
 }
 
@@ -296,67 +132,87 @@ body {
   color: #005bb5; /* Hover color for links */
 }
 
-/* Responsive Design for smaller screens */
-
-/* For Tablets (max-width: 1024px) */
-/* Hero Section */
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem 1rem;
-  background: linear-gradient(135deg, #61dafb, #0072ff); /* Modern gradient */
-  border-radius: 10px;
-  color: white;
-}
-
-.text-container {
-  flex: 1;
-  padding-right: 3rem;
-}
-
-.hero h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  text-align: justify;  /* Justify the heading text */
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  line-height: 1.6;
-  text-align: justify; /* Justify the paragraph text */
-  text-justify: inter-word; /* Ensures better spacing between words */
-}
-
-.image-container {
-  flex-shrink: 1;
-  max-width: 45%;
-  display: flex;
-  justify-content: center;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-/* Project Overlay Styling */
-.project-overlay {
+/* Styling for the In Progress Banner */
+.homepage .in-progress-banner-container {
   position: relative;
-}
-
-.in-progress-banner {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: #ff5733; /* Red color for in progress */
+  background-color: #ff5733;  /* Red color */
   color: white;
-  padding: 5px 15px;
+  padding: 5px 20px;
   font-size: 1rem;
   font-weight: bold;
   border-radius: 5px;
+  text-align: center;
+  max-width: 100%;
+  width: fit-content;
+  margin-top: 20px;  /* Ensuring it doesn’t overlap with other elements */
+  z-index: 5;  /* Slightly lower z-index than DDoS project */
+}
+
+/* Responsive Design for smaller screens */
+
+/* For Tablets (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+  .hero {
+    display: flex;
+    flex-direction: column; /* Stack items on top of each other */
+    align-items: center;
+  }
+
+  .text-container {
+    padding-right: 0;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center; /* Center the heading */
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: center; /* Center the paragraph */
+    text-justify: inter-word;
+  }
+
+  .image-container {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .portfolio h2 {
+    font-size: 2rem;
+  }
+
+  .project-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust grid columns */
+  }
+}
+
+/* For Mobile Screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .project {
+    margin-bottom: 15px; /* Reduced bottom margin */
+  }
+
+  .portfolio h2 {
+    font-size: 1.5rem;
+  }
+
+  .project h3 {
+    font-size: 1.4rem;
+  }
+
+  .project p {
+    font-size: 1rem;
+  }
+
+  .project-container {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
 }
