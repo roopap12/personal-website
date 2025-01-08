@@ -1,0 +1,87 @@
+Future Process for Updating & Deploying the Website:
+Make Updates to the Website Locally:
+
+Open your project folder in VS Code or your preferred code editor.
+Make changes to your website (HTML, CSS, JS, etc.).
+Save the Changes:
+
+After making updates, save all your changes in the code editor.
+Commit the Changes Locally:
+
+Open Git Bash or your terminal and navigate to your project directory if you're not already there:
+
+bash
+Copy code
+cd path/to/your/project
+Stage the files you modified (it stages all the modified files):
+
+bash
+Copy code
+git add .
+Commit the changes with a meaningful message:
+
+bash
+Copy code
+git commit -m "Describe your update here, e.g., 'Fixed the banner position'"
+Push the Changes to GitHub:
+
+Push the changes to the GitHub repository linked to your project:
+bash
+Copy code
+git push origin main
+GitHub Action Triggers Automatically:
+
+Once the code is pushed to GitHub, your GitHub Action workflow will be triggered (since it's set to trigger on a push to the main branch).
+This will automatically start the deployment process to Firebase.
+Monitor the Deployment on GitHub:
+
+Go to your GitHub repository.
+On the top menu, click on Actions.
+Here you will see the latest workflow run. You can click on the run to view the logs.
+Ensure the deployment has completed successfully. It will show something like:
+csharp
+Copy code
+Deploy to Firebase Hosting on merge #XX
+Deploy complete!
+Hosting URL: https://your-project-name.web.app
+Check the Website:
+
+Once the deployment is successful, open your Firebase Hosting URL (either the default firebaseapp.com URL or your custom domain, if set) to see the live updates.
+Example:
+arduino
+Copy code
+https://portfolio-23a8c.web.app
+Or if you're using a custom domain (e.g., roopa.co), visit:
+arduino
+Copy code
+https://roopa.co
+Recap of Command Lines:
+Here’s a summary of the commands you'll use to deploy updates:
+
+Navigate to your project folder:
+
+bash
+Copy code
+cd path/to/your/project
+Stage all changes:
+
+bash
+Copy code
+git add .
+Commit the changes:
+
+bash
+Copy code
+git commit -m "Commit message describing the change"
+Push to GitHub:
+
+bash
+Copy code
+git push origin main
+Troubleshooting:
+If you face any issues during the deployment, here are a few things you can check:
+
+Check GitHub Actions: Make sure your workflow was triggered and completed successfully.
+Check Firebase Console: You can see the deployed version in the Firebase console under the "Hosting" section.
+Check Logs: If there are any issues during the deployment, check the logs from the GitHub Actions page to see what went wrong.
+That’s it! Once everything is set up, you don’t need to manually deploy after the first time. Each push to GitHub (to the main branch) will automatically trigger the GitHub Action and deploy the updates to Firebase.
