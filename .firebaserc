@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "portfolio-23a8c"
+    "default": "portfolio-23a8c",
+    "production": "portfolio-23a8c"
   },
   "targets": {},
   "etags": {}
