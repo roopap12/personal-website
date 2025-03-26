@@ -65,7 +65,7 @@ body {
   font-size: 1rem;  /* Adjust font size */
   line-height: 1.4;
   margin-bottom: 10px;
-  color: rgb(56, 54, 54); /* Darker color for better contrast */
+  color: rgb(244, 238, 238); /* Darker color for better contrast */
   z-index: 2;  /* Ensure the h1 text stays on top of the video */
 }
 
@@ -76,7 +76,7 @@ body {
   transform: translateX(-50%); /* Center the text horizontally */
   font-size: 1.3rem; /* Adjust size of the "Hello, I'm Roopa" text */
   line-height: 1.6;
-  color: rgb(24, 23, 23); /* Darker color for better contrast */
+  color: rgb(5, 6, 23); /* Darker color for better contrast */
   margin-bottom: 10px;
   z-index: 2; /* Ensure the text stays above the video */
 }

@@ -21,25 +21,26 @@ const Homepage = () => {
         </div>
 
         <div className="text-container">
-          <p>Hello, I'm Roopa</p>
-          <h1>
-            I am an experienced and results-driven{" "}
-            <strong>Full Stack Developer</strong>.<br />
-            <strong>*  Cybersecurity Expert</strong>, and{" "}
-            <strong>RPA Specialist</strong> with a passion for building secure,
-            scalable, and innovative digital solutions.
-            <br />
-            *  With a strong foundation in <strong>Automation</strong>,{" "}
-            <strong>Backend Development</strong>, and{" "}
-            <strong>Cybersecurity</strong>,
-            <br />
-            *  I craft robust systems that drive operational efficiency, secure
-            digital environments, and elevate user experiences.
-            <br />
-            Let’s collaborate to transform your ideas into high-performance,
-            secure, and intelligent solutions.
-          </h1>
-        </div>
+  <p>Hello, I'm Roopa</p>
+  <h1>
+    I am a dedicated and certified{" "}
+    <strong>RPA Developer</strong>,{" "}
+    <strong>Cybersecurity Analyst</strong>, and{" "}
+    <strong>Backend Developer</strong>.<br />
+    With a strong foundation in{" "}
+    <strong>Automation</strong>,{" "}
+    <strong>Cybersecurity</strong>, and{" "}
+    <strong>Business Systems</strong>,<br />
+    I build secure, efficient, and scalable digital solutions that bridge the gap between{" "}
+    <strong>technology</strong> and <strong>business needs</strong>.
+    <br />
+    Passionate about continuous learning and innovation, I bring real-world project experience
+    across <strong>AI-driven security systems</strong>,{" "}
+    <strong>automated workflows</strong>, and <strong>backend development</strong>.
+    <br />
+    Let’s collaborate to turn visionary ideas into resilient, high-performance solutions.
+  </h1>
+</div>
         {/* <div className="image-container">
           <img src="Homepg.jpg" alt="Hero Graphic" />
         </div> */}
