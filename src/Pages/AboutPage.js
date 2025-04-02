@@ -16,42 +16,52 @@ const AboutPage = () => {
           <div className="description-content">
             <div className="left-content">
               <p>
-                Hello, I'm Roopa Patel — a certified RPA Developer,
+                Hello, I’m Roopa Patel — a certified RPA Developer,
                 Cybersecurity Analyst, and Backend Developer based in Auckland.
-                With a strong background in business and finance, I transitioned
-                into tech to build secure, scalable solutions that solve
-                real-world problems.
               </p>
 
               <p>
-                My expertise lies in automation (UiPath, Power Automate),
+                With a background in business and finance, I’ve transitioned
+                into technology to build secure, scalable, and user-centric
+                solutions that bridge business needs with technical innovation.
+              </p>
+
+              <p>
+                My core strengths lie in automation (UiPath, Power Automate),
                 backend development (Node.js, Python, SQL), and cybersecurity
-                (network security, risk assessment, IDS/IPS). I’ve applied these
-                skills across a range of projects — including an AI-driven DDoS
-                detection system, retail audit bots, and a meditation app with
-                AI chatbot integration.
+                (network security, IDS/IPS, risk assessment). I’ve applied these
+                skills across real-world projects, including:
+                <ul>
+                  <li>An AI-driven DDoS detection system (in progress)</li>
+                  <li>Retail automation bots for inventory audits</li>
+                  <li>An AI-powered meditation app with chatbot integration</li>
+                  <li>
+                    A secure e-commerce platform tailored for the NZ market
+                  </li>
+                </ul>
               </p>
 
               <p>
-                I specialize in streamlining operations and enhancing digital
-                security through automation. With hands-on experience in both
-                technical execution and business analysis, I bridge the gap
-                between process efficiency and system innovation.
+                I specialise in streamlining operations, automating workflows,
+                and strengthening digital security. With a unique blend of
+                technical execution and business analysis, I thrive in roles
+                that require both precision and purpose.
               </p>
 
               <p>
-                Previously, I served as Director at Elite Business Group and
-                Financial Controller at Avis Rental Cars, where I led data
-                migration, automation, and system integration projects that
-                significantly improved operational outcomes.
+                Previously, I led data migration and automation initiatives as
+                Director at Elite Business Group, and drove systems optimisation
+                as Financial Controller at Avis Rental Cars.
               </p>
 
               <p>
-                Outside of my professional pursuits, I’m dedicated to lifelong
-                learning — currently progressing toward PMP certification while
-                staying current with emerging technologies. I also balance my
-                career with daily yoga, meditation, and creative expression
-                through choreography at Swaminarayan Temple.
+                Beyond work, I’m a lifelong learner — currently pursuing PMP
+                certification — and I balance my career with daily yoga,
+                meditation, and choreography at the Swaminarayan Temple.
+              </p>
+
+              <p>
+                Let’s connect and create impactful digital solutions together.
               </p>
             </div>
             <div className="right-content">
@@ -70,11 +80,7 @@ const AboutPage = () => {
           <h3>Education and Achievements</h3>
           <ul>
             <li>
-              Bachelor's Degree in Business - Major in Accounting and Auditing.
-            </li>
-            <li>
-              Completed <strong>UiPath Advanced RPA Developer</strong>{" "}
-              certification.
+              <strong>UiPath Advanced RPA Developer</strong> – Completed 2024
               <br />
               <a
                 href={
@@ -90,16 +96,8 @@ const AboutPage = () => {
               </a>
             </li>
             <li>
-              Introduced and assimilated a new software system, leading to a 40%
-              improvement in operational efficiency.
-            </li>
-            <li>
-              Boosted client base by 40%, resulting in increased revenue and
-              market presence.
-            </li>
-            <li>
-              Completed{" "}
-              <strong>Google Cybersecurity Professional Certificate</strong>.
+              <strong>Google Cybersecurity Professional Certificate</strong> –
+              Completed 2024
               <br />
               <a
                 href={
@@ -114,8 +112,54 @@ const AboutPage = () => {
               </a>
             </li>
             <li>
-              Completed{" "}
-              <strong>Software Development Certificate of Completion</strong>.
+              <strong>Cybersecurity Foundation Course</strong> from Coursera
+              Microsoft Online – Completed 2023
+              <br />
+              <a
+                href={
+                  process.env.PUBLIC_URL +
+                  "/certificates/CyberSecurityCertificate.pdf"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className="certificate-link"
+              >
+                Cyber Security Certificate.pdf
+              </a>
+            </li>
+            <li>
+              <strong>Cybersecurity Play It Safe Manage Security Risks</strong>{" "}
+              from Coursera – Completed 2023
+              <br />
+              <a
+                href={
+                  process.env.PUBLIC_URL +
+                  "/certificates/CyberSecurityPlayItSafeManageSecurityRisks.pdf"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className="certificate-link"
+              >
+                Cyber Security Play It Safe Manage Security Risks.pdf
+              </a>
+            </li>
+            <li>
+              <strong>Cyber Security Certificate</strong> from Datacom
+              <br />
+              <a
+                href={
+                  process.env.PUBLIC_URL +
+                  "/certificates/CyberSecurityCertificateDatacom.pdf"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className="certificate-link"
+              >
+                Cyber Security Certificate Datacom.pdf
+              </a>
+            </li>
+            <li>
+              <strong>Software Development Certificate of Completion</strong>
               <br />
               <a
                 href={
@@ -131,54 +175,9 @@ const AboutPage = () => {
               </a>
             </li>
             <li>
-              Completed <strong>Cybersecurity Foundation Course</strong> from
-              Coursera Microsoft Online.
-              <br />
-              <a
-                href={
-                  process.env.PUBLIC_URL +
-                  "/certificates/CyberSecurityCertificate.pdf"
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                className="certificate-link"
-              >
-                Cyber Security Certificate.pdf
-              </a>
+              <strong>Bachelor's Degree in Business</strong> – Major in
+              Accounting and Auditing
             </li>
-            <li>
-              Completed{" "}
-              <strong>Cybersecurity Play It Safe Manage Security Risks</strong>{" "}
-              from Coursera.
-              <br />
-              <a
-                href={
-                  process.env.PUBLIC_URL +
-                  "/certificates/CyberSecurityPlayItSafeManageSecurityRisks.pdf"
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                className="certificate-link"
-              >
-                Cyber Security Play It Safe Manage Security Risks.pdf
-              </a>
-            </li>
-            <li>
-              Achieved <strong>Cyber Security Certificate</strong> from Datacom.
-              <br />
-              <a
-                href={
-                  process.env.PUBLIC_URL +
-                  "/certificates/CyberSecurityCertificateDatacom.pdf"
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                className="certificate-link"
-              >
-                Cyber Security Certificate Datacom.pdf
-              </a>
-            </li>
-            {/* Add more achievements as needed */}
           </ul>
         </div>
       </div>
